@@ -1,3 +1,23 @@
+# OfflineApp
+
+A small React Native mobile application demonstrating offline data management and basic CRUD operations.
+
+## Project Description
+
+**OfflineApp** is a React Native application designed to showcase offline data storage, state management, and basic CRUD (Create, Read, Update, Delete) functionality. The app allows users to manage a list of items (e.g., tasks or products) with the following features:
+
+- **Offline Data Storage**: Uses AsyncStorage to persist item data locally, enabling full functionality without an internet connection.
+- **State Management**: Implements Redux Toolkit to manage the global state of items efficiently.
+- **CRUD Operations**:
+  - **Create**: Add new items via a form with name and description fields.
+  - **Read**: View a list of all stored items.
+  - **Update**: Edit existing items with validation.
+  - **Delete**: Remove items from the list and storage.
+- **Navigation**: Features a splash screen with a Lottie animation and text ("Welcome to App"), followed by a navigable item list and add/edit screens using React Navigation.
+- **Validation**: Ensures input fields meet requirements (e.g., name and description are required, with length limits), displaying error messages below inputs.
+
+The app is structured for maintainability, with separate modules for components, navigation, Redux logic, and storage utilities.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
