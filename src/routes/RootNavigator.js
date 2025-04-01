@@ -4,7 +4,7 @@ import SplashScreen from '../screens/SplashScreen';
 import ItemListScreen from '../screens/ItemListScreen';
 import AddEditItemScreen from '../screens/AddEditItemScreen';
 
-const Stack = createStackNavigator(); // Add parentheses here
+const Stack = createStackNavigator();
 
 const RootNavigator = () => {
     return (
